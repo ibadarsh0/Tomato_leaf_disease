@@ -1,5 +1,5 @@
 import streamlit as st
-import tensorflow as tf
+import tensorflow.lite as tflite
 import numpy as np
 import matplotlib.pyplot as plt
 from src.data_loader import prepare_datasets
@@ -7,8 +7,9 @@ from src.data_loader import prepare_datasets
 # ==========================
 # Load model & class names
 # ==========================
-MODEL_PATH = "models/tomato_model.keras"
-model = tf.keras.models.load_model(MODEL_PATH)
+
+interpreter = tflite.Interpreter(model_path="models/tomato_model.tflite")
+interpreter.allocate_tensors()
 
 # Use data loader to get class names
 _, _, class_names = prepare_datasets("dataset/train", "dataset/test")
