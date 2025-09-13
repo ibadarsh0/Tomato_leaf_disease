@@ -1,8 +1,8 @@
-tensorflow-cpu
+tensorflow-cpu=2.12.0
 keras
-matplotlib
-numpy
+matplotlib=3.7.1
+numpy=1.23.5
 pandas
-scikit-learn
+scikit-learn=1.2.2
 opencv-python
 streamlit
