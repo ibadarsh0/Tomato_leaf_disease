@@ -103,7 +103,9 @@ You can also visualize confusion matrix for better insights.
 
 🌱 Example Streamlit App
 
-(📸 Add a screenshot here once you run the app locally, e.g., screenshot.png)
+<p align="center">
+  <img src="tes_images/1.jPG" alt="Infected Leaf" width="35%" />
+</p>
 
 
 ---------------------------------------------------------------------------------------------------
