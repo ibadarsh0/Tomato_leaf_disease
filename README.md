@@ -1,7 +1,7 @@
 🍅 Tomato Leaf Disease Detection
 
 <p align="center">
-  <img src="assets/banner.jpg" alt="Tomato Leaf Disease Detection Banner" width="100%" />
+  <img src="src/banner.jpg" alt="Tomato Leaf Disease Detection Banner" width="100%" />
 </p>
 
 ------------------------------------------
